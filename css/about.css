@@ -71,8 +71,28 @@ p {
     margin: 0 auto;
 }
 /*Header*/
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+   
+}
+nav a{
+    color:black;
+}
 
 /*main content*/
+.main-img{
+    padding-top:15px;
+}
 .about-sec{
     border-bottom:2px dashed black;
     padding-bottom:15px;

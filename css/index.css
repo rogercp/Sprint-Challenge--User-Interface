@@ -72,19 +72,21 @@ p {
 }
 /*Header*/
 header{
-    
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
 }
 
 header nav{
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
    
 }
 nav a{
     color:black;
-}
-.logo{
-    
-    
 }
 
 /*main content*/
