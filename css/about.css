@@ -73,5 +73,56 @@ p {
 /*Header*/
 
 /*main content*/
+.about-sec{
+    border-bottom:2px dashed black;
+    padding-bottom:15px;
+}
+.two-row{
+    display:flex;
+    justify-content: space-around;
+}
+.cube{
+    border-bottom: 2px dashed black;
+    margin: 20px;
+}
+h2{
+    margin-top: 10px;
 
+}
+button{
+    border: 1px double black;
+    font-size: 16px;
+    background:white;
+    width: 170px;
+    height: 32px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button:hover{
+    background: black;
+    color: white;
+}
 /*footer*/
+.bottom-p{
+    margin-bottom: 18px;
+}
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
