@@ -72,24 +72,18 @@ p {
 }
 /*Header*/
 header{
-    display:flex;
-    border:1px solid red;
-    justify-content: space-between;
+    
 }
 
 header nav{
-    border:1px solid black;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-
+    
    
 }
 nav a{
     color:black;
 }
 .logo{
-    margin:30px 0 0 100px;
+    
     
 }
 
