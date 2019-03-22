@@ -90,8 +90,7 @@ nav a{
     text-decoration: underline;
     color: black;
     animation:boom 3s ease-in-out alternate; 
-
-
+    
 }
 @keyframes boom{
     0%{
@@ -110,95 +109,43 @@ nav a{
 
 /*main content*/
 .main-img{
-    margin-top:15px;
-    margin-bottom:15px;
+    padding-top:15px;
 }
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.about-sec{
+    border-bottom:2px dashed black;
+    padding-bottom:15px;
 }
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box{
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/*box colors*/
-.middle-content .boxes .box:nth-child(1){
-    background-color: teal;
-}
-.middle-content .boxes .box:nth-child(2){
-    background-color: gold;
-}
-.middle-content .boxes .box:nth-child(3){
-    background-color: cadetblue;
-}
-.middle-content .boxes .box:nth-child(4){
-    background-color:coral;
-}
-.middle-content .boxes .box:nth-child(5){
-    background-color: crimson;
-}
-.middle-content .boxes .box:nth-child(6){
-    background-color:forestgreen;
-}
-.middle-content .boxes .box:nth-child(7){
-    background-color:darkorchid;
-}
-.middle-content .boxes .box:nth-child(8){
-    background-color:hotpink;
-}
-.middle-content .boxes .box:nth-child(9){
-    background-color:indigo;
-}
-.middle-content .boxes .box:nth-child(10){
-    background-color:dodgerblue;
-}
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
+.two-row{
+    display:flex;
     justify-content: space-around;
 }
-
-.bottom-content .text-container {
-    padding-right: 4%;
+.cube{
+    border-bottom: 2px dashed black;
+    margin: 20px;
 }
+h2{
+    margin-top: 10px;
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
 }
-
+button{
+    border: 1px double black;
+    font-size: 16px;
+    background:white;
+    width: 170px;
+    height: 32px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button:hover{
+    background: black;
+    color: white;
+}
 /*footer*/
+.bottom-p{
+    margin-bottom: 18px;
+}
 footer {
     width: 100%;
     background: black;
